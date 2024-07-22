@@ -1,0 +1,26 @@
+{
+      "name": "LAUDA",
+      "description": "chut",
+            "logo": "https://graph.org/file/1b2d3c1491fbaa85a6d29.jpg",
+      "keywords": [
+         "telegram",
+         "modular",
+      ],   
+   "repository": "https://github.com/RealKronos69/laudekabot",
+   "stack": "heroku-22",
+   "addons": [
+      {
+         "options": {
+            "version": "15"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+   "env": {
+      "TOKEN": {
+         "description": "Your bot token. Get one from @BotFather",
+         "required": true,
+         "value": ""
+      },
+   }     
+      }  
